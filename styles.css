@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	gap:25px
+}
+.container h1{
+	text-align:center;
+}
+.container h2{
+	text-align:center;
+}
+.songList ul li{
+	list-style-type:none;
+}
+.songList ul a{
+	text-decoration-line:none;
+}
+.player_one{
+	background-color: rgb(255, 255, 255);
+	padding:20px;
+	border-radius:10px;
+}
+.player_two{
+	background-color: rgb(255, 255, 255);
+	padding:20px;
+	border-radius:10px;
+}
+body{
+	background-color: rgb(204, 204, 204);
+}
